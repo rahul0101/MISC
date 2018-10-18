@@ -9,6 +9,7 @@ desired_width = 320
 pd.set_option('display.width', desired_width)
 pd.set_option("display.max_columns", 10)
 
+# Dataset available at kaggle.com/lazyjustin/pubgplayerstats
 df = pd.read_csv("PUBG_Player_Statistics.csv")
 #print(df.columns.values)
 df = df.ix[0:1200,:]
